@@ -1,4 +1,6 @@
-
+#!/bin/python3
+import os
+import sys
 import argparse
 import datetime
 
@@ -96,6 +98,8 @@ if __name__ == "__main__":
 
     # ARGEPARSE FOR TAKING FILE ARGUMENTS FROM COMMAND LINE.
     parser = argparse.ArgumentParser()
+    parser.add_argument("--s","--source",help="add source")
+    parser.add_argument("--d","--destination",help="add destination")
     parser.add_argument("ipFile", help="Input File")
     parser.add_argument("opFile", help="Output File")
     args = parser.parse_args()
