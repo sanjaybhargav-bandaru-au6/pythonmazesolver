@@ -1,8 +1,10 @@
 # PYTHON MAZE SOLVER
 
+>`project by Sanjay Bhargav Bandaru`
+
 ## _Python project to solve maze using text file(file handling) and CLI(command line interface)_.
 
-Program takes the input and output file name as command-line arguments.
+Program takes the `input` and `output` file name as command-line arguments.
 Using the square matrix present in the `input.txt` file it would generate a path to reach the end of the maze and put it in the `output.txt` file.
 ***
 
